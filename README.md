@@ -59,3 +59,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Vehix - Gestion de véhicules
+
+Ce projet permet de gérer les véhicules, les assurances, les réparations, les trajets, etc.
+
+## Installation
+
+1. Clone le projet
+2. `composer install`
+3. `npm install`
+4. `cp .env.example .env`
+5. `php artisan key:generate`
+6. `php artisan migrate`
+7. `php artisan serve`
+
+## Technologies
+
+- Laravel
+- Vue.js
+- Inertia.js
+- Tailwind CSS
